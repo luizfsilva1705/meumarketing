@@ -1,0 +1,54 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --menu-lateral: #2dd51a;
+    --fonte-principal: 'Inter';
+}
+
+.titulo__saiba{
+ 
+    grid-column: 1;
+    grid-row: 1 / span 1;
+}
+
+.saiba__impor{
+ padding: 20%;
+ font-size: 25px;
+}
+
+.terceira__imagem{
+    width: 25vw;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    margin-top: 20%;
+}
+
+.botao__curso {
+    background-image: linear-gradient(to right,rgb(3, 47, 16), rgb(17, 219, 71));
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-top: 5px;
+    margin-inline: 5px;
+
+    text-align: center;
+}
+
+
+.botao__curso:hover {
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-de-fundo);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}

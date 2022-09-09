@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marketing</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/banner.css">
+        <link rel="stylesheet" href="assets/css/cursos.css">
+        <link rel="stylesheet" href="assets/css/carrossel.css">
+    </head>
+    <Body>
+
+   
+       <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <p class="cabecalho__perfil">Luiz Fernando</p>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+        
+       </header>
+        <nav class="menu-lateral">
+            <img src="assets/img/azul.png" alt="Logotipo de Marketing" class="cabecalho__logo">
+            <a href="/index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+            <a href="/cursos.html" class="menu-lateral__link menu-lateral__link--cursos menu-lateral__link--ativo">Cursos</a>
+            <!--  <a href="#" class="menu-lateral__link menu-lateral__link--mentoria menu-lateral__link--ativo">Mentoria</a>-->
+            <a href="/contato.html" class="menu-lateral__link menu-lateral__link--contato menu-lateral__link--ativo">Contato</a>
+        </nav>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre em nossa estante os melhores cursos!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+
+
+            <section class="carrossel">
+                <h2 class="carrossel__titulo">Novos lançamentos</h2>
+             <!--  Slider main container -->
+               <div class="carrossel__container">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+        
+                        <div class="swiper-wrapper">
+                          <!--   Slides -->
+                          <div class="swiper-slide"><img src="/assets/img/cursoMika.png"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>  
+                          <div class="swiper-slide"><img src="/assets/img/curso 1.png"
+                                    alt="Livro sobre apache kafka e spring boot da alura books">
+                                </div>
+                            <div class="swiper-slide"><img src="/assets/img/curso2.png"
+                                    alt="Livro sobre liderança em design da alura books"></div>
+                            <div class="swiper-slide"><img src="/assets/img/curso3.png"
+                                    alt="Livro sobre javascript assertivo da alurabooks"></div>
+                         </div>
+        
+                     <!--   If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+        
+                    <div class="card">
+                        <!--1º linha --> 
+                        <div class="card__descrição">
+                             <!--1º coluna -->
+                            <div class="descrição">
+                                <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                                <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                                <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                            </div>
+                          <!--  2º coluna -->
+                            <img src="img/Angular.svg" class="descrição__imagem">
+                        </div>
+        
+                     <!--2º linha -->
+                        <div class="card__botões">
+                          <!--  1º coluna -->
+                            <ul class="botões">
+                                <li class="botões__item"><img src="/assets/img/Favoritos.svg" alt="Favoritar livro"></li>
+                                <li class="botões__item"><img src="/assets/img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                            </ul>
+                           <!--2º coluna -->
+                            <a href="#" class="botões__ancora">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </section>
+
+
+
+<!--
+        <section class="container secundario">
+            <img src="/assets/img/cursoMika.png" alt="Metódo Mulher Milionária" class="secundario__imagem">
+            <div class="container__descricao">
+                <h2 class="curso1__titulo">Metódo Mulher Milionária</h2>
+                <p class="descricao__texto">Descubra o novo método que mulheres comuns estão usando para ganhar uma renda extra sem sair de casa usando apenas o celular
+                    Para toda e qualquer mulher que está em busca da sua liberdade financeira para ajudar sua família e principalmente realizar os seus sonhos, mas que não tem muito tempo no dia a dia para se dedicar a outra atividade ou ganhar uma renda extra.
+                    O Método Mulher Milionária pode ser aplicado por qualquer mulher comum pois é simples, direto ao ponto, precisa apenas de um celular com conexão com a internet e apenas 1 hora por dia para assistir e aplicar os conteúdos.
+                    </p>
+                    <a href="https://edzz.la/R2NSL?a=65783782" class="container__botao" target="_blank" rel="">Clique Aqui! Saiba mais!</a>
+            </div>
+        </section>
+  
+        <section class="container terceiro">
+            <img src="/assets/img/curso 1.png" alt="Marketing Digital" class="terceira__imagem">
+        </section>
+
+ 
+        <section class="container secundario">
+            <img src="/assets/img/curso 1.png" alt="Marketing Digital" class="secundario__imagem">
+            <div class="container__descricao">
+                <h2 class="curso1__titulo">Marketing Digital</h2>
+                <p class="descricao__texto curso1__texto">
+                    Estudos recentes indicam que o brasileiro passa aproximadamente 3 horas e meia por dia conectado às redes sociais. Dados da Anatel para o mês de janeiro de 2021, indicam que o Brasil terminou o mês com mais de 235 milhões de linhas de celular ativas.
+                    Isso significa dizer que, atualmente os canais digitais conseguem atingir praticamente todos os cidadãos com algum poder aquisitivo, para os quais podemos apresentar uma marca, uma ideia, vender um produto, enfim, estabelecer algum tipo de comunicação.
+                    Qualquer profissional que almeje sucesso na área de marketing não poderá desconsiderar os canais digitais e suas constantes atualizações e deverá trilhar o caminho da aprendizagem e do entendimento dos meandres e dos pormenores desse segmento.
+                    E é nesse foco que este curso se pauta: traz para a realidade do aluno as práticas do Marketing Digital, com técnicas, ferramentas, dinâmicas, criação de sites, desenvolvimento de planos de marketing e muito mais.
+                    O egresso desse curso estará plenamente habilitado a desempenhar essa atividade em qualquer empresa de comunicação e marketing, além de poder atuar de forma autônoma, assessorando empresas de qualquer segmento.
+                    Bons estudos!</p>
+                    <a href="https://go.hotmart.com/X74331789G" class="container__botao" target="_blank" rel="">Clique Aqui! Saiba mais!</a>
+            </div>
+        </section>
+
+        <section class="container secundario">
+            
+            <div class="container__descricao">
+                <h2 class="descricao__titulo">Marketing de Elite</h2>
+                <p class="descricao__texto curso2__texto">
+                    Curso Marketing de Elite foi criado pelo Eric Amadio, ideal pra quem não conhece nada sobre o mercado e quer aprender as melhores estratégias de vendas que pode ser usado em qualquer tipo de negócio!
+
+                O treinamento é atualizado com frequência, com os métodos que mais vem trazendo resultado no mercado.
+
+                O Aluno terá todo o Suporte para atender todas as suas dúvidas.</p>
+                    <a href="https://go.hotmart.com/G74331824T?ap=b678" class="container__botao" target="_blank" rel="">Clique Aqui! Saiba mais!</a>
+            </div>
+            <img src="/assets/img/curso2.png" alt="Marketing de Elite" class="secundario__imagem">
+        </section>
+
+        <section class="container secundario">
+            
+            <div class="container__descricao">
+                <h2 class="descricao__titulo">Marketing de Elite</h2>
+                <p class="descricao__texto curso3__texto">
+                    Curso Marketing de Elite foi criado pelo Eric Amadio, ideal pra quem não conhece nada sobre o mercado e quer aprender as melhores estratégias de vendas que pode ser usado em qualquer tipo de negócio!
+
+                O treinamento é atualizado com frequência, com os métodos que mais vem trazendo resultado no mercado.
+
+                O Aluno terá todo o Suporte para atender todas as suas dúvidas.</p>
+                    <a href="https://go.hotmart.com/G74331824T?ap=b678" class="container__botao" target="_blank" rel="">Clique Aqui! Saiba mais!</a>
+            </div>
+            <img src="/assets/img/curso3.png" alt="Marketing de Elite" class="secundario__imagem">
+        </section>-->
+
+
+
+          
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
+    </Body>
+</html>
